@@ -1,0 +1,65 @@
+.booknowContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.booknowWrapper{
+    width: 600px;
+    height: 580px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.3);
+}
+.booknowTitle {
+  margin-top: 50px;
+  font-size: 25px;
+  color: #00ACC1;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.booknowForm {
+  max-width: 300px;
+  margin: auto;
+}
+
+.booknowLabel {
+  margin-bottom: 10px;
+}
+
+.booknowInput,
+.booknowTextarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.booknowInput:focus,
+.booknowTextarea:focus {
+  border-color: #00ACC1;
+}
+.booknowInput::placeholder,
+.booknowTextarea::placeholder {
+  color: rgba(0, 0, 0, 0.7); 
+}
+.booknowButton {
+    width: 120px;
+    padding: 10px;
+    background-color: #00ACC1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+
+.booknowButton:hover {
+  background-color: #007f91;
+}

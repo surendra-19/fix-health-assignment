@@ -1,0 +1,46 @@
+.navbarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    height: 80px;
+        
+}
+
+.navbarContainer a{
+    text-decoration: none;
+}
+
+.leftNav .icon {
+    height: 60px;
+    width: 160px;
+    margin-left: 50px;
+    margin-top: 9px;
+}
+
+.rightNav {
+    margin-right: 50px;
+}
+
+.rightNav span {
+    margin-right: 25px;
+    color: rgb(177, 177, 177);
+}
+.rightNav span:hover{
+    color: white;
+}
+.booknow {
+    padding: 10px 15px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; 
+    background-color: #00ACC1;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booknow:hover {
+    background-color: #007f91;
+}
